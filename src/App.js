@@ -1,3 +1,4 @@
+import Saludar from "./components/Saludar";
 import React from "react";
 import "./index.css";
 function App() {
@@ -9,9 +10,10 @@ function App() {
   };
   return (
     <div className="App">
-      <h1>Mi primera App</h1>
-      {helloWorld()}
-      <button onClick={numero}>CLICK</button>
+      <h1>Mi primer componente</h1>
+      <Saludar />
+      <br />
+      <Saludar />
     </div>
   );
 }
